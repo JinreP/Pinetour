@@ -1,0 +1,287 @@
+.road-map {
+  background-image: url(images/background-3.png);
+  width: 100%;
+  height: 902px;
+  background-size: contain;
+  position: relative;
+}
+
+.text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-1 h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text-1 p {
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.slides {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
+  margin-left: 120px;
+  margin-bottom: 2px;
+}
+.slide {
+  width: 512px;
+  height: 112px;
+  border-radius: 40px;
+  background-color: aqua;
+}
+
+.slide-1 h4 {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-1 p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide-1 {
+  align-items: center;
+  position: relative;
+  background-color: #eee9d9;
+}
+.slide-texts {
+  padding-left: 30px;
+  padding-top: 4px;
+  gap: 12px;
+  display: flex;
+}
+.DAYS {
+  width: 52px;
+  height: 52px;
+  fill: #f7f6f3;
+  border-radius: 999px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 420px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.DAYS h3 {
+  color: #000;
+  font-family: GIP;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  padding-top: 17px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-2 h4 {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-2 p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide-2 {
+  align-items: center;
+  position: relative;
+  background-color: #8bb8c1cc;
+}
+
+.slide-3 h4 {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-3 p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide-3 {
+  align-items: center;
+  position: relative;
+  background-color: #aad8d7cc;
+}
+
+.slide-4 h4 {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-4 p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide-4 {
+  align-items: center;
+  position: relative;
+  background-color: #8bc0bdcc;
+}
+
+.slide-5 h4 {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slide-5 p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slide-5 {
+  align-items: center;
+  position: relative;
+  background-color: #97cce0cc;
+}
+
+.pin-1 {
+  background-image: url(images/map-pin-1.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  position: absolute;
+  left: 813px;
+  top: 60px;
+  opacity: 0;
+}
+
+.slide-1:hover .pin-1 {
+  opacity: 1;
+}
+
+.pin-2 {
+  background-image: url(images/map-pin-2.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  position: absolute;
+  left: 600px;
+  bottom: 130px;
+  opacity: 0;
+}
+
+.slide-2:hover .pin-2 {
+  opacity: 1;
+}
+
+.pin-3 {
+  background-image: url(images/map-pin-3.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  position: absolute;
+  left: 492px;
+  bottom: 120px;
+  opacity: 0;
+}
+
+.slide-3:hover .pin-3 {
+  opacity: 1;
+}
+
+.pin-4 {
+  background-image: url(images/map-pin-4.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  position: absolute;
+  left: 480px;
+  bottom: 400px;
+  opacity: 0;
+}
+
+.slide-4:hover .pin-4 {
+  opacity: 1;
+}
+.pin-5 {
+  background-image: url(images/map-pin-5.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  position: absolute;
+  left: 620px;
+  bottom: 500px;
+  opacity: 0;
+}
+
+.slide-5:hover .pin-5 {
+  opacity: 1;
+}
