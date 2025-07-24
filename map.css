@@ -285,3 +285,33 @@
 .slide-5:hover .pin-5 {
   opacity: 1;
 }
+.slide-1:hover {
+  border: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+.slide-2:hover {
+  border: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.slide-3:hover {
+  border: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+.slide-4:hover {
+  border: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+.slide-5:hover {
+  border: solid;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.slides p {
+  padding-left: 20px;
+}
